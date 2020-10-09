@@ -1,0 +1,97 @@
+
+.containerAll{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.containerInputsAddress{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerAddress{
+    width: 45%;
+}
+.containerSubtotal{
+    width: 45%;
+}
+
+.mainCont{
+    display:flex;
+    padding: 10px 50px;
+    
+}
+
+.maincontainerStract{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 60vh;
+    margin: auto;
+    
+    
+}
+
+.nameFinish{
+    width: 100%;
+    background-color: #048f55;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px 0px;
+}
+.containerStract{
+    border: solid;
+    border-width: 3px;
+    border-color: #048f55;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerStract img{
+    width: 100px;
+    height: 100px!important;
+}
+.stract h3{
+    color: #048f55;
+    font-size: 20px;
+}
+.asideImg{
+    height: 600px;
+    border-radius: 20px;
+    
+    border: solid;
+    border-color: #048f55;
+}
+.subtotalx{
+    color: #048f55;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn1{
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: solid;
+    border-color: #048f55;
+    font-size: 18px;
+    color: #048f55;
+    margin: 10px 0 50px 0;
+}
+
+.btn1:hover{
+    background-color: #048f55;
+    color: whitesmoke;
+}

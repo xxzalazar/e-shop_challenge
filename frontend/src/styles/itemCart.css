@@ -1,0 +1,167 @@
+.containeritemsCart{
+    width: 100%;
+    height: 80%;
+    padding: 1.5rem;
+    overflow-y: scroll;
+    display: flex;
+ 
+    align-items: center;
+    flex-direction: column;
+}
+
+.containeritemsCart h1{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30vh;
+    background-color: #3f9b54da;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.containerItemCart{
+    width: 80%;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    height: 30vh;
+    display: flex;
+    border-top: 4px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #3f9b54da;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerItemCart p{
+    color: black
+}
+
+.containerItemCart img{
+    width: 10vh;
+}
+.headerPanel {
+    display: flex;
+    color: black;
+    background-color: #3f9b54da;
+    align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 0;
+}
+
+.headerPanel p {
+    margin-left: 3rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    color: #fff;
+}
+
+.texto h3{
+    font-size: 25px;
+}
+
+.texto{
+    text-align: left;
+    color: #fff;
+    margin-left: 2vw; 
+    width: 70%;
+}
+
+.texto h3{
+    font-size: 1rem;
+}
+
+.texto p{
+    margin: 0;
+    font-family: "Montserrat", Sans-serif;
+    color: #fff;
+}
+
+.footCart{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
+    color: #fff;
+    border-top: 1px solid #ffffffbe;
+    background-color: #3f9b54da;
+}
+
+.footCart-buy {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.footCart-buy p {
+    color: #3f9b54da;
+}
+
+.footCart p{
+    margin-bottom: 0;
+    padding: 0px!important;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.counter p {
+    padding-bottom: 8px;
+}
+
+.counter button {
+    
+   color: whitesmoke;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+
+}
+
+.counter button:focus {
+    border: none;
+    outline: none;
+}
+
+.counter button:hover {
+    color: rgb(225, 201, 166);
+}   
+
+
+
+.counterContainer {
+    display: flex;
+    align-items: center;
+    width: 90%; 
+    border-top: 1px solid #ffffffbe;
+    padding-top: 1vh;
+}
+
+.subtotal {
+    display: flex; 
+    width: 80%; 
+    justify-content: space-between;
+    background-color: #3f9b54da;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+.trash:focus {
+    border: none;
+    outline: none;
+    appearance: none;
+}

@@ -1,0 +1,60 @@
+@media screen and (max-width: 761px) {
+    .counter {
+        margin-left: 2vw;
+    }
+    .counter button {
+        width: 4vw;
+    }
+    .counterContainer {
+        flex-direction: column;
+        align-items: center!important;
+    }
+    .containerItemCart{
+        width: 95%;
+        flex-direction: column!important;
+        height: 42vh;
+    }
+    .subtotal {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 637px) {
+    .containerItemCart{
+        width: 100%;
+    }
+    .subtotal {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .counter {
+        margin-left: 8vw;
+    }
+    .quantity {
+        width: 4vw!important;
+    }
+    .counter button {
+        margin-left: 2vw;
+    }
+    .sidepanel {
+        background-position: top;
+    }
+    .headerPanel p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .texto h3 {
+        font-size: 12px;
+    }
+    .counterContainer p {
+        font-size: 11px;
+    }
+    .subtotal {
+        flex-direction: column;
+        align-items: center;
+    }
+}

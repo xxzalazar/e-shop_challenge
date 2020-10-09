@@ -1,0 +1,125 @@
+.button-Faq {
+    border: 1px white!important;
+    outline: none!important;
+    appearance: none!important;
+    background: none!important;
+    color: rgb(255, 255, 255);
+    border-style: none!important;
+    box-shadow: none!important;
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+    padding: 3vh 0;
+    font-weight: bold;
+}
+
+.card-faq p {
+    margin-bottom: 0;
+}
+
+.button-Faq:hover, .button-Faq:focus {
+    color: #048f55;
+}
+
+.card-faq {
+    min-width: 95%!important;
+    margin: 0;
+    margin-left: 2vw;
+    border: none;
+    box-shadow: none;
+    text-align: left;
+    color: #048f55;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card-faq:hover {
+    box-shadow: none;
+}
+
+.card-body-faq {
+    color: rgb(255, 255, 255);
+    background-color: #048f55be;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-weight: 700;
+}
+
+.fondo-faq {
+    background-image: url(../images/fondo.png);
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 7vh;
+    margin: 4vh 3vw;
+}
+
+.fondo-faq h1 {
+    margin-left: 5vw;
+}
+
+.fondo-transparente {
+    background-color: #000000b7;
+    border-radius: 20px;
+    padding: 8vh 0vw;
+}
+
+.titulo-faq-1 {
+    display: flex;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    flex-grow: 1;
+    width: 90%;
+    color: #048f55;
+    font-weight: bolder;
+}
+
+.titulo-faq-1::after {
+    flex-grow: 1;
+    height: 1px;
+    content: '\a0';
+    background-color: #a2c037;
+    position: relative;
+    top: 0.6em;
+}
+
+.titulo-faq-1::after {
+    margin: 0 15px;
+}
+
+.titulo-faq-1::before {
+    margin: 0 15px;
+}
+
+.titulo-faq:after {
+    flex-grow: 1;
+    height: 1px;
+    content: '\a0';
+    background-color: #a2c037;
+    position: relative;
+    top: 0.6em
+}
+
+.titulo-faq::before {
+    margin: 0 15px;
+}
+
+.titulo-faq:after {
+    margin: 0 15px;
+}
+
+.titulo-faq {
+    padding-top: 7vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    flex-grow: 1;
+    width: 90%;
+    color: #048f55;
+    font-weight: bolder;
+}

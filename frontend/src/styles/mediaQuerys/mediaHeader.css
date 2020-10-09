@@ -1,0 +1,100 @@
+@media screen and (max-width: 1146px) {
+    .cartCircle {
+        min-width: 61.19px;
+        min-height: 61.19px;
+    }
+}
+
+@media screen and (max-width: 1208px) {
+    .carrusel {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 1066px) {
+    .navbar a {
+        min-width: 150px;
+    }
+}   
+
+@media screen and (max-width: 800px) {
+    .carrusel {
+        height: 300px;
+    }
+    .containerTitle {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .carrusel {
+        height: 260px;
+    }
+    .navbar {
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 150px;
+    }
+    .navbar a{
+        font-size: 12px;
+    }
+    .desplegable {
+        font-size: 12px;
+    }
+    .titleHeader {
+        font-size: 15px;
+    }
+    .containerTitle h3 {
+        font-size: 30px;
+    }
+    .containerTitle h4 {
+        font-size: 25px;
+    }
+    .containerTitle h5 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carrusel {
+        height: 220px;
+    }
+    .containerTitle h3 {
+        font-size: 25px;
+    }
+    .containerTitle h4 {
+        font-size: 20px;
+    }
+    .containerTitle h5 {
+        font-size: 13px;
+    }
+    .containerTitle {
+        height: 250px;
+    }
+    .containerProductsImg {
+        height: 280px;
+    }
+    .cartCircle {
+        min-width: 50px;
+        min-height: 50px;
+    }
+    .carrito {
+        height: 20.25px!important;
+        padding-bottom: 5px;
+    }
+    .sidepanel {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .carrusel {
+        height: 170px;
+    }
+    .navbar {
+        height: 120px;
+    }
+}
+

@@ -1,0 +1,244 @@
+.header-sup {
+  height: 6.3vh;
+  width: 100%;
+  background-color: #048f55 ;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titleHeader {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+  margin: 0;
+  text-shadow: 2px 2px 3px rgb(41, 115, 68);
+  text-align: center;
+}
+
+.desplegable {
+  background-color: whitesmoke !important;
+  border: solid 2px #048f55  !important;
+  color: #048f55  !important;
+}
+
+.desplegable:hover {
+  transition: all 0.3s;
+  background-color: #048f55  !important;
+  color: white !important;
+  border: 2px solid #048f55 ;
+  
+}
+
+.dropdown-menu.show {
+  background-color: white;
+  transition: 600ms;
+  border: 2px solid #048f55  !important;
+  border-radius: 5px !important;
+}
+
+.btn:focus {
+  box-shadow: none;
+  border: none;
+  appearance: none;
+  outline: none;
+}
+
+.dropdown-header {
+  color: #048f55  !important;
+  font-size: 20px !important;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: #048f55  !important;
+  color: white !important;
+  transition: 300ms;
+}
+
+.navbar {
+  background: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none !important;
+  color: #048f55  !important;
+}
+
+.navbar a:hover {
+  background-color: #048f55  !important;
+  color: white !important;
+  transition: 300ms;
+}
+
+.container-logo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(250, 250, 250, 0.363), #a2c037);
+  border-spacing: 0;
+  border-collapse: separate;
+  padding: 1rem;
+}
+
+.logo {
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2rem;
+}
+
+.containerTitle {
+  background-image: url("../images/BANDA.png");
+  height: 60vh;
+  background-position: center center;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerTitle h3 {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 40px;
+}
+.containerTitle h4 {
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 30px;
+}
+.containerTitle h5 {
+  color: whitesmoke;
+  margin: 0 !important;
+  font-weight: 500;
+  font-size: 20px;
+}
+.containerProductsImg {
+  height: 60vh;
+  background-image: url("../images/productos.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carrusel {
+  background-position: center;
+  height: 85vh;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.carousel-item {
+  transition: all 0.4s;
+}
+      
+  .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    float: right;
+  }
+
+  .sidepanel  h4{
+    color:  #5ff181be;
+  }
+  
+  .sidepanel a {
+    text-decoration: none;
+    text-decoration: underline;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #3bc45b;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    background-color: #16993500;
+    border: none;
+  }
+
+  .closebtn:focus {
+    border: none;
+    appearance: none;
+    outline: none;
+  }
+
+  .WindowClose:hover {
+    color: rgb(225, 201, 166)!important;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:  #3f9b55be;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: whitesmoke;
+    color: #3bc45b;
+  }
+
+  .div {
+    width: 30%;
+  }
+
+  .cartCircle {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100%;
+    transition: all 0.5s;
+    width: 4.5vw;
+    height: 4.5vw;
+    background-color: #3bc45b;
+}
+
+.cartCircle:hover {
+  background-color: #048f55  !important;
+  color: white !important;
+  transition: 300ms;
+}
+
+.cartCircle:focus {
+  outline: none;
+}

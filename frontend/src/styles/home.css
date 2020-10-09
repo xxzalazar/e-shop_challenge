@@ -1,0 +1,165 @@
+/* PRODUCTOS DESTACADOS */
+.titulo:after, .titulo:before {
+    flex-grow: 1;
+    height: 2px;
+    content: '\a0';
+    background-color: #a2c037;
+    position: relative;
+    top: 0.5em
+}
+
+.titulo:before {
+    margin: 0 15px;
+}
+
+.titulo:after {
+    margin: 0 15px;
+}
+
+.titulo {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    margin: 0;
+    padding: 30px 50px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+.footer h4 {
+    font-size: 14px;
+}
+
+.left-footer {
+    flex: 1;
+    line-height: 20px;
+    
+}
+
+.left-footer h4 {
+    text-align: center;
+}
+
+.left-footer li {
+    list-style: none;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    padding-right: 15rem;
+}
+
+.left-footer li a {
+    outline: none;
+    text-decoration: none;
+    color: #ffffff!important;
+}
+
+.center-footer {
+    flex: 1;
+    line-height: 20px;
+    border-left: 1px solid rgb(148, 156, 161, 0.45);
+    padding-left: 30px;
+}
+
+.center-footer h4 {
+    text-align: center;    
+}
+
+.center-footer li {
+    list-style: none;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.right-footer {
+    flex: 1;
+    border-left: 1px solid rgb(148, 156, 161, 0.45);
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.right-footer div{
+    height: 13vw;
+    width: 30vw;
+    margin-left: 15px;
+}
+
+.right-footer h4 {
+    text-align: center;    
+}    
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.underFooter {
+    font-size: 12px;
+    background-color: #fff;
+    color: #313131;
+    padding: 4px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    width: 842px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* LOS DESTACADOS */
+
+.handler h5 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.viewMore-navLink {
+    color: white; 
+    text-decoration: none!important; 
+    outline: none;
+    appearance: none;
+    text-align: center; 
+    letter-spacing: 1px;
+}
+
+.viewMore-navLink:hover {
+    color: #fff;
+    outline: none;
+}
+
+.viewMore-navLink:focus {
+    outline: none;
+}
+
+
+.viewMore {
+    border: none;
+    padding: 12px;
+    color: white;
+    background-image: linear-gradient(#35f183, #27ad5f, #12532d);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.viewMore:hover {
+    background-image: linear-gradient(#00e25e, #009c41, #005222);
+}
+
+.cardProduct {
+    margin: 2vw;
+    width: 25vw;
+}
+

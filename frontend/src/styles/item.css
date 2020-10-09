@@ -1,0 +1,93 @@
+.masomenos1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 70px;
+  }
+  
+  .masomenos1 button {
+    width: 25%;
+    border-radius: 100%;
+    margin: 1vh 0.1vw;
+    background-color: #000;
+  }
+  
+  .masomenos1 button:hover {
+    opacity: 0.8;
+    background-color: #465316;
+  }
+  
+  .masomenos1 input {
+    width: 30%;
+    border: none;
+    text-align: center;
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .allCardInputs1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh;
+  }
+
+  .addToCart1 {
+    font-size: 20px;
+    color: #048f55 !important;
+    /* text-decoration: none!important; */
+    background-color: white !important;
+    border: 3px solid #048f55 !important;
+    border-radius: 8px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 4px !important;
+    margin-top: 2vh;
+    font-weight: bolder;
+  }
+  
+  .addToCart1:hover {
+    background-color: #048f55 !important;
+    color: white !important;
+    opacity: 0.8;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.8);
+    transition: 150ms;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  background-color: transparent;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield !important;
+  background-color: transparent;
+}
+  
+  
+  
+  
+  
+  .moreLess1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #048f55 !important;
+    /* text-decoration: none!important; */
+    background-color: white !important;
+    border: 3px solid #048f55 !important;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 4px !important;
+    margin-top: 2vh;
+  }
+  
+  .moreLess1:hover {
+    background-color: #048f55 !important;
+    color: white !important;
+    opacity: 0.8;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.8);
+    transition: 150ms;
+  }

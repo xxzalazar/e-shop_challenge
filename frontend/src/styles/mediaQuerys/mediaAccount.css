@@ -1,0 +1,97 @@
+
+@media screen and (max-width: 900px) {
+    .RightBack-signUp {
+        display: none;
+    }
+    .alfajores {
+        width: 100%;
+    }
+    .back-signUp {
+        height: 110vh!important;
+    }
+}
+
+@media screen and (max-width: 877px) {
+    .titleHouses {
+        font-size: 1rem;
+    }
+    .send {
+        width: 160px;
+        padding: 2px 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .cardInputs-logIn {
+        width: 52vw;
+        left: 23vw;
+    }
+    .cardInputs-signUp {
+        width: 65vw;
+        left: 15vw;
+    }
+    .signContainer .inputs input {
+        width: 40vw;
+    }
+    .logError {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .signContainer-login .inputs input {
+        width: 40vw;
+    }
+    .send {
+        width: 140px;
+        padding: 2px 0;
+        font-size: 15px;
+    }
+    .RightBack-logIn {
+        display: none;
+    }
+    .pizza {
+        width: 100%;
+    }
+    .cardInputs-logIn {
+        width: 57vw;
+        left: 20vw;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .cardInputs-logIn {
+        width: 62vw;
+        left: 18vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cardInputs-logIn {
+        width: 75vw;
+        left: 10vw;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .back-signUp {
+        display: flex;
+        justify-content: center;
+    }
+    .cardInputs-signUp {
+        width: 80vw;
+        left: 3vw;
+    }
+    .signContainer .inputs input {
+        width: 60vw;
+    }
+    .logError {
+        width: 60vw;
+    }
+    .signContainer-login .inputs input {
+        width: 60vw;
+
+    }
+
+}

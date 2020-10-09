@@ -1,0 +1,32 @@
+.containerThanksText{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    height: 90vh;
+    justify-content: center;
+    width: 40%;
+    color:whitesmoke;
+    background-color: #048f55;
+    padding: 10px;
+}
+
+.containerThanksText p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.containerTotal{
+    width: 100%;
+    display: flex;
+}
+
+.containerGif{
+    width: 30%;
+}
+
+.photo1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}

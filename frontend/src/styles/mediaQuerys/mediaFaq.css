@@ -1,0 +1,20 @@
+@media screen and (max-width: 943px) {
+    .card-body {
+        flex: none;
+    }
+    .card-faq {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 516px) {
+    .titulo-faq-1 {
+        font-size: 20px;
+    }
+    .titulo-faq {
+        font-size: 20px;
+    }
+    .button-Faq {
+        font-size: 0.8rem;
+    }
+}

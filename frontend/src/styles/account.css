@@ -1,0 +1,177 @@
+.signContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signContainer-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signContainer-login .inputs input {
+    width: 25vw;
+    margin-top: 3vh;
+}
+
+.signContainer .inputs input {
+    width: 25vw;
+    margin-bottom: 3vh;
+    margin-top: 0;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.inputs input {
+    height: 42px;
+    color: rgba(44, 62, 80, 0.8);
+    background-color: #fff;
+    border: 1px solid #3bc45b;
+    width: 100%;
+    padding: 6px 12px;
+    line-height: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.inputs input:focus {
+    border-color: none;
+    box-shadow: 0 1px 1px #4bdb6d69 inset, 0 0 8px #4bdd6d;
+    outline: 0 none;
+}
+
+.titleHouses {
+    text-align: center;
+    margin-top: 2vh;
+    color: #fff;
+    width: 90%;
+    border-radius: 50px;
+    background-image: linear-gradient(#4CAF50, #317433);
+    padding: 5px;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.send {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.send:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.send span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.send span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.send:hover span {
+    padding-right: 25px;
+}
+
+.send:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.or {
+    color: #fff;
+}
+
+.cardInputs-signUp {
+    border: 1px solid #000;
+    width: 43vw; 
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2vh;
+    margin: 3vh;
+    position: relative;
+    left: 28vw;
+}
+
+.cardInputs-logIn {
+    border: 1px solid #000;
+    width: 43vw; 
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2vh;
+    margin: 3vh;
+    position: relative;
+    left: 28vw;
+}
+
+.RightBack-signUp {
+    color: #7ce916;
+    width: 70%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.RightBack-logIn {
+    color: #7ce916;
+    width: 70%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.back-signUp {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 120vh;
+}
+
+.back-logIn {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.alfajores {
+    filter: contrast(130%)
+}
+
+.logError {
+    background-color: rgba(206, 50, 50, 0.795);
+    width: 25vw;
+    font-size: 12.5px;
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0 5px;
+    text-align: center;
+}
